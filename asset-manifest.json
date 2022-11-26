@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AwesomeAppUsingReact/static/css/main.479d85d4.css",
+    "main.js": "/AwesomeAppUsingReact/static/js/main.8d583e2d.js",
+    "index.html": "/AwesomeAppUsingReact/index.html",
+    "main.479d85d4.css.map": "/AwesomeAppUsingReact/static/css/main.479d85d4.css.map",
+    "main.8d583e2d.js.map": "/AwesomeAppUsingReact/static/js/main.8d583e2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.479d85d4.css",
+    "static/js/main.8d583e2d.js"
+  ]
+}
