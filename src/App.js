@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Sdata from './Sdata';
+import Card from './Card';
 
-function App() {
+
+const App = () => {
+  return(
+    <>
+    <h1 className='heading_style'> List of top 5 Netflix Series in 2020</h1>
+
+{Sdata.map((val, index) => {
+  console.log(index);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Card 
+      key={val.id}
+      sname={val.sname}
+      imgsrc={val.imgsrc}
+      title={val.title}
+      link={val.link}
+      />
+);
+})}
+  </>
+  )
 }
-
 export default App;
